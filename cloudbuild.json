@@ -1,0 +1,15 @@
+﻿{
+	"steps:" [
+	{
+		"name": "gcr.io/cloud-builders/gcloud"
+		"args": [
+			"beta",
+			"functions",
+			"deploy",
+			"test02",
+			"--source .",
+			"--trigger-http"
+		]
+	}
+	]
+}
