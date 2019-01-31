@@ -20,7 +20,7 @@ exports.test02 = (req, res) => {
 			message = "getList method";
 			break;
 		}
-	} elseif(method == 'POST') {
+	} else if(method == 'POST') {
 		switch(rute) {
 			case '/create':
 			message = "create method";
