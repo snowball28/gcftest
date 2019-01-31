@@ -15,7 +15,7 @@ exports.test02 = (req, res) => {
 	if(method == 'GET') {
 		switch(rute) {
 			case '/getById':
-			message = server_function.getById;
+			message = server_function.getById();
 			console.log('/getById');
 			break;
 
