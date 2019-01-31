@@ -5,5 +5,27 @@
  * @param {!express:Response} res HTTP response context.
  */
 exports.test02 = (req, res) => {
-	res.status(200).send(req.url);
+	
+	var rute = req.url;
+	var message = "";
+	
+	switch(rute) {
+		case '/create';
+		message = "create method";
+		break;
+		
+		case '/update';
+		message = "update method";
+		break;
+		
+		case '/delete';
+		message = "delete method";
+		break;
+		
+		default;
+		message = "default method";
+		break;
+	}
+	
+	res.status(200).send(message);
 };
