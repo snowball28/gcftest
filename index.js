@@ -16,10 +16,12 @@ exports.test02 = (req, res) => {
 		switch(rute) {
 			case '/getById':
 			message = server_function.getById;
+			console.log('/getById');
 			break;
 
 			case '/getList':
 			message = "getList method";
+			console.log('/getList');
 			break;
 				
 			default:
