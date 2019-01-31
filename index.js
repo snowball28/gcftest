@@ -10,19 +10,19 @@ exports.test02 = (req, res) => {
 	var message = "";
 	
 	switch(rute) {
-		case '/create';
+		case '/create':
 		message = "create method";
 		break;
 		
-		case '/update';
+		case '/update':
 		message = "update method";
 		break;
 		
-		case '/delete';
+		case '/delete':
 		message = "delete method";
 		break;
 		
-		default;
+		default:
 		message = "default method";
 		break;
 	}
