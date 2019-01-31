@@ -1,4 +1,6 @@
-﻿/**
+var server_function = require('./server.js');
+
+/**
  * Responds to any HTTP request.
  *
  * @param {!express:Request} req HTTP request context.
