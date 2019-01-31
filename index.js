@@ -19,6 +19,10 @@ exports.test02 = (req, res) => {
 			case '/getList':
 			message = "getList method";
 			break;
+				
+			default:
+			message = "default method";
+			break;
 		}
 	} else if(method == 'POST') {
 		switch(rute) {
