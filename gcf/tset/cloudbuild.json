@@ -8,7 +8,7 @@
 			"deploy",
 			"test02",
 			"--source",
-			".",
+			"./gcf/tset/",
 			"--trigger-http"
 		]
 	}
