@@ -21,7 +21,7 @@ exports.test02 = (req, res) => {
 
 			case '/getList':
 			message = "getList method";
-			console.log('/getList');
+			console.log('/getList!!');
 			break;
 				
 			default:
