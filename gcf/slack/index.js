@@ -5,5 +5,5 @@
  * @param {!express:Response} res HTTP response context.
  */
 exports.gcftest_slack = (req, res) => {		
-	res.status(200).send('gcftest_sclak!!');
+	res.status(200).send('gcftest_sclak!!!');
 };
