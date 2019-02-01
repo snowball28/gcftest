@@ -1,0 +1,16 @@
+{
+	"steps": [
+	{
+		"name": "gcr.io/cloud-builders/gcloud",
+		"args": [
+			"beta",
+			"functions",
+			"deploy",
+			"gcftest_slack",
+			"--source",
+			".",
+			"--trigger-http"
+		]
+	}
+	]
+}
