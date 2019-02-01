@@ -4,6 +4,7 @@
  * @param {!express:Request} req HTTP request context.
  * @param {!express:Response} res HTTP response context.
  */
-exports.gcftest_slack = (req, res) => {		
+exports.gcftest_slack = (req, res) => {	
+	console.log('github webhook tset');
 	res.status(200).send('gcftest_sclak!!!');
 };
