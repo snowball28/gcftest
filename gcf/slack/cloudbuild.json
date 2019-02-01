@@ -8,7 +8,7 @@
 			"deploy",
 			"gcftest_slack",
 			"--source",
-			"./slack/",
+			"./gcf/slack/",
 			"--trigger-http"
 		]
 	}
