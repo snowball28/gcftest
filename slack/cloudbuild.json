@@ -6,7 +6,7 @@
 			"beta",
 			"functions",
 			"deploy",
-			"gcftest_slack",
+			"test02",
 			"--source",
 			".",
 			"--trigger-http"
